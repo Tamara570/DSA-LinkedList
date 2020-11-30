@@ -5,6 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Stack/Queue",
+            "program": "${workspaceFolder}/stacks-queues",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
             "name": "Nora-file",
             "program": "${workspaceFolder}/nora-file",
             "request": "launch",
